@@ -1,0 +1,98 @@
+﻿.block {
+	background: rgb(97,100,108);
+	background: linear-gradient(90deg, rgba(97,100,108,1) 18%, rgba(66,69,76,1) 39%, rgba(49,51,56,1) 85%);
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.photo-scroll {
+	background: rgb(97,100,108);
+	background: linear-gradient(90deg, rgba(97,100,108,1) 18%, rgba(66,69,76,1) 39%, rgba(49,51,56,1) 85%);
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+.photo-scroll img {
+	display: inline-block;
+	max-height: 100%;
+	max-width: none;
+	margin-right: 10px;
+}
+td,
+th {
+	padding: 5px;
+	font-size: 16pt;
+}
+
+body {
+	font-family: 'JetBrainsMono NF', monospace;
+	font-size: 14pt;
+	background: rgb(97,100,108);
+	background: linear-gradient(90deg, rgba(97,100,108,1) 18%, rgba(66,69,76,1) 39%, rgba(49,51,56,1) 85%);
+	color: #fff;
+}
+
+a {
+	color: #ffd700;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #dfbe00;
+}
+
+.container {
+	margin: auto;
+	width: 800px;
+	padding: 20px;
+}
+
+.profile {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.profile-img {
+	width: 200px;
+	height: 200px;
+	border-radius: 5%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.container-vl {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.vertical-line {
+	border-left: 2px solid white;
+	height: 50px;
+	margin: 1px;
+	text-align: center;
+	display: inline-block;
+	color: gray;
+}
+
+.profile-info {
+	text-align: right;
+}
+
+h2 {
+	color: #ffd700;
+}
+
+.telegram-p {
+	color: #19a4e9;
+}
+
+.icon {
+	width: 20px;
+	height: 20px;
+}
