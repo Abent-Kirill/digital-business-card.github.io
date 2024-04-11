@@ -1,4 +1,9 @@
-﻿.block {
+﻿dl {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.block {
 	background: rgb(97,100,108);
 	background: linear-gradient(90deg, rgba(97,100,108,1) 18%, rgba(66,69,76,1) 39%, rgba(49,51,56,1) 85%);
 	padding: 20px;
